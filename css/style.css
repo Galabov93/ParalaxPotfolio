@@ -1,0 +1,419 @@
+
+/*@media (min-width:767px){
+    		#main-quote{
+			width:45%;
+			margin-bottom: 3em;
+			margin-top: 4em;
+			margin-right:3em;
+			margin-left:3em;
+		}
+
+}*/
+
+/*@media (max-width:767px){
+
+		.about-text{
+			font-size: 1.5em;
+		}
+
+
+		#main-quote{
+			width:70%;
+			margin: 2em auto;
+		}
+
+		.img1{
+			position: relative;
+			margin: 0 auto;
+			
+		}
+
+		#profile-photo{
+
+		}
+	
+}
+
+.img1{
+	max-width:350px;
+
+}
+
+#profile-photo{
+	border-radius: 100%;
+
+}*/
+
+body {
+	width:100%;
+	height:100%;
+	font-family:Open Sans,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	color:#fff;
+	background-color:#000;
+	 font-weight:300;
+}
+html {
+	width:100%;
+	height:100%;
+}
+h1,h2,h3,h4,h5,h6 {
+	margin:0 0 35px;
+	text-transform:uppercase;
+	font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight:700;
+	letter-spacing:1px;
+}
+p {
+	margin:0 0 25px;
+	font-size:18px;
+	line-height:1.5;
+}
+@media(min-width:768px) {
+	p {
+		margin:0 0 35px;
+		font-size:20px;
+		line-height:1.6;
+	}
+}
+a {
+	color:inherit;
+	-webkit-transition:all .2s ease-in-out;
+	-moz-transition:all .2s ease-in-out;
+	transition:all .2s ease-in-out;
+}
+a:hover,a:focus {
+	text-decoration:none;
+	color:inherit;
+}
+.light {
+	font-weight:400;
+}
+.navbar-custom {
+	margin-bottom:0;
+	border-bottom:1px solid rgba(255,255,255,.3);
+	text-transform:uppercase;
+	font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	background-color:#000;
+}
+.navbar-custom .navbar-brand {
+	font-size:20px;
+	text-transform:none;
+	letter-spacing:1px;
+}
+.navbar-custom .navbar-brand:focus {
+	outline:0;
+}
+.navbar-custom .navbar-brand .navbar-toggle {
+	padding:4px 6px;
+	font-size:16px;
+	color:#fff;
+}
+.navbar-custom .navbar-brand .navbar-toggle:focus,.navbar-custom .navbar-brand .navbar-toggle:active {
+	outline:0;
+}
+.navbar-custom a {
+}
+.navbar-custom .nav li a {
+	-webkit-transition:background .3s ease-in-out;
+	-moz-transition:background .3s ease-in-out;
+	transition:background .3s ease-in-out;
+}
+.navbar-custom .nav li a:hover {
+	outline:0;
+	color:#1ba39c;
+	background-color:transparent;
+}
+.navbar-custom .nav li a:focus,.navbar-custom .nav li a:active {
+	outline:0;
+	background-color:transparent;
+}
+.navbar-custom .nav li.active {
+	outline:0;
+}
+.navbar-custom .nav li.active a {
+	color:#1ba39c;
+}
+.navbar-custom .nav li.active a:hover {
+	color:#1ba39c;
+}
+@media(min-width:768px) {
+	.navbar-custom {
+		padding:20px 0;
+		border-bottom:0;
+		font-size:13px;
+		background:0 0;
+		-webkit-transition:background .5s ease-in-out,padding .5s ease-in-out;
+		-moz-transition:background .5s ease-in-out,padding .5s ease-in-out;
+		transition:background .5s ease-in-out,padding .5s ease-in-out;
+	}
+		 .navbar-custom.top-nav-collapse {
+		 padding:0;
+		border-bottom:1px solid rgba(255,255,255,.3);
+		color:#333;
+			background:#fff;
+	}
+	.navbar-custom.top-nav-collapse a {
+		color:#333;
+		display:inline-block;
+	}
+}
+
+
+
+
+
+/*****************************
+HEADER SECTION
+***************************/
+.intro {
+	display:table;
+	width:100%;
+	height:auto;
+	padding:100px 0 100px 0;
+	text-align:center;
+	color:#fff;
+	background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.46),rgba(0,0,0,0.88)),url('../images/officce_image.jpg');
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	background-size:cover;
+	-o-background-size:cover;
+}
+.intro .intro-body {
+	display:table-cell;
+	vertical-align:middle;
+}
+.intro .intro-body .brand-heading {
+	font-size:40px;
+}
+.intro .intro-body .intro-text {
+	font-size:18px;
+}
+
+
+	.intro {
+		height:100vh;
+		padding:0;
+	}
+
+
+@media(min-width:768px) {
+
+	.intro .intro-body .brand-heading {
+		font-size:60px;
+		margin-top:90px;
+		margin-bottom:20px;
+		border-top:2px solid #fff;
+		border-bottom:2px solid #fff;
+		display:inline-block;
+		padding:10px 0;
+
+	}
+	.intro .intro-body .intro-text {
+		font-size:20px;
+			font-weight:300;
+			letter-spacing:3px;
+	}
+}
+.btn-circle {
+	width:50px;
+	height:50px;
+	margin-top:15px;
+	line-height:40px;
+	text-align:center;
+	border:2px solid #fff;
+	border-radius:100%!important;
+	font-size:20px;
+	color:#fff;
+	background:0 0;
+	-webkit-transition:background .3s ease-in-out;
+	-moz-transition:background .3s ease-in-out;
+	transition:background .3s ease-in-out;
+}
+.btn-circle:hover,.btn-circle:focus {
+	outline:0;
+	color:#fff;
+	background:rgba(255,255,255,.1);
+}
+.btn-circle i.animated {
+	-webkit-transition-property:-webkit-transform;
+	-webkit-transition-duration:1s;
+	-moz-transition-property:-moz-transform;
+	-moz-transition-duration:1s;
+}
+.btn-circle:hover i.animated {
+	-webkit-animation-name:pulse;
+	-moz-animation-name:pulse;
+	-webkit-animation-duration:1.5s;
+	-moz-animation-duration:1.5s;
+	-webkit-animation-iteration-count:infinite;
+	-moz-animation-iteration-count:infinite;
+	-webkit-animation-timing-function:linear;
+	-moz-animation-timing-function:linear;
+}
+@-webkit-keyframes pulse {
+	0% {
+		-webkit-transform:scale(1);
+		transform:scale(1);
+	}
+	50% {
+		-webkit-transform:scale(1.2);
+		transform:scale(1.2);
+	}
+	100% {
+		-webkit-transform:scale(1);
+		transform:scale(1);
+	}
+}
+@-moz-keyframes pulse {
+	0% {
+		-moz-transform:scale(1);
+		transform:scale(1);
+	}
+	50% {
+		-moz-transform:scale(1.2);
+		transform:scale(1.2);
+	}
+	100% {
+		-moz-transform:scale(1);
+		transform:scale(1);
+	}
+}
+
+
+#image-gallery{
+	padding: 3em;
+}
+
+#portfolio-text{
+	margin-bottom: 2em;
+	color:black;
+}
+
+
+.content-section {
+	padding:40px 0;
+	clear:both;
+}
+@media(min-width:767px) {
+	.content-section {
+		padding:150px 0;
+			 clear:both;
+	}
+}
+
+
+#contact{
+	background-color: white;
+	color:black;
+
+}
+
+#contactform input,#contactform textarea {
+	border:0px;
+	border-bottom:2px solid #333;
+	width:100%;
+	background-color:transparent;
+	padding:20px 0px;
+	text-transform:uppercase;
+	letter-spacing:2px;
+	margin-bottom:20px;
+}
+#contactform input#submit {
+	width:auto;
+	border:2px solid;
+	padding:10px 20px;
+	display:inline-block;
+}
+#contactform input#submit:hover {
+	background-color:#333;
+	color:#fff;
+	border:2px solid #333;
+}
+#contactform input:focus,#contactform input:active,#contactform textarea:focus,#contactform textarea:active {
+	border-top:0px;
+	border-bottom:2px solid lightseagreen;
+	outline:0;
+	outline: none;
+}
+ul.banner-social-buttons {
+	margin-top:0;
+}
+@media(max-width:1199px) {
+	ul.banner-social-buttons {
+		margin-top:15px;
+	}
+}
+@media(max-width:767px) {
+	ul.banner-social-buttons li {
+		display:block;
+		margin-bottom:20px;
+		padding:0;
+	}
+	ul.banner-social-buttons li:last-child {
+		margin-bottom:0;
+	}
+}
+
+/* FOOTER*/
+footer {
+	margin-top: 0;
+	padding:40px 0;
+	z-index:-10;
+	position:relative;
+	clear:both;
+	background-color: #333;
+}
+footer p {
+	margin:0;
+	font-size:15px;
+	color: white;
+}
+footer p.credits {
+	text-transform:uppercase;
+	font-size:18px;
+	letter-spacing:3px;
+}
+::-moz-selection {
+	text-shadow:none;
+	background:white;
+	background:rgba(255,255,255,.2);
+}
+::selection {
+	text-shadow:none;
+	background:#fcfcfc;
+	background:rgba(255,255,255,.2);
+}
+
+
+
+/* This is auto-clear function for clearing the image gallery */
+	@media (min-width:1200px){
+		.auto-clear .col-lg-1:nth-child(12n+1){clear:left;}
+		.auto-clear .col-lg-2:nth-child(6n+1){clear:left;}
+		.auto-clear .col-lg-3:nth-child(4n+1){clear:left;}
+		.auto-clear .col-lg-4:nth-child(3n+1){clear:left;}
+		.auto-clear .col-lg-6:nth-child(odd){clear:left;}
+	}
+	}
+	@media (min-width:992px) and (max-width:1199px){
+		.auto-clear .col-md-1:nth-child(12n+1){clear:left;}
+		.auto-clear .col-md-2:nth-child(6n+1){clear:left;}
+		.auto-clear .col-md-3:nth-child(4n+1){clear:left;}
+		.auto-clear .col-md-4:nth-child(3n+1){clear:left;}
+		.auto-clear .col-md-6:nth-child(odd){clear:both;}
+	}
+	@media (min-width:768px) and (max-width:991px){
+		.auto-clear .col-sm-1:nth-child(12n+1){clear:left;}
+		.auto-clear .col-sm-2:nth-child(6n+1){clear:left;}
+		.auto-clear .col-sm-3:nth-child(4n+1){clear:left;}
+		.auto-clear .col-sm-4:nth-child(3n+1){clear:left;}
+		.auto-clear .col-sm-6:nth-child(odd){clear:left;}
+	}
+	@media (max-width:767px){
+		.auto-clear .col-xs-1:nth-child(12n+1){clear:left;}
+		.auto-clear .col-xs-2:nth-child(6n+1){clear:left;}
+		.auto-clear .col-xs-3:nth-child(4n+1){clear:left;}
+		.auto-clear .col-xs-4:nth-child(3n+1){clear:left;}
+		.auto-clear .col-xs-6:nth-child(odd){clear:left;}
+	}
+}

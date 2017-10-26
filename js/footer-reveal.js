@@ -1,0 +1,1 @@
+var mq = window.matchMedia( "(max-width: 500px)" ); //media query for Javascript
